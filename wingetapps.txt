@@ -1,0 +1,332 @@
+{
+	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate" : "2022-07-04T19:31:31.415-00:00",
+	"Sources" : 
+	[
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudio.2019.Community",
+					"Version" : "16.11.13"
+				},
+				{
+					"PackageIdentifier" : "7zip.7zip",
+					"Version" : "22.00"
+				},
+				{
+					"PackageIdentifier" : "AIMP.AIMP",
+					"Version" : "5.02.2370"
+				},
+				{
+					"PackageIdentifier" : "Cisco.CiscoWebexMeetings",
+					"Version" : "42.2.3"
+				},
+				{
+					"PackageIdentifier" : "CPUID.HWMonitor",
+					"Version" : "1.46"
+				},
+				{
+					"PackageIdentifier" : "Codeblocks.Codeblocks",
+					"Version" : "17.12"
+				},
+				{
+					"PackageIdentifier" : "GaijinNetwork.Crossout",
+					"Version" : "Unknown"
+				},
+				{
+					"PackageIdentifier" : "Discord.Discord",
+					"Version" : "0.0.311"
+				},
+				{
+					"PackageIdentifier" : "Geany.Geany",
+					"Version" : "1.38"
+				},
+				{
+					"PackageIdentifier" : "Git.Git",
+					"Version" : "2.37.0"
+				},
+				{
+					"PackageIdentifier" : "Google.Chrome",
+					"Version" : "103.0.5060.66"
+				},
+				{
+					"PackageIdentifier" : "REALiX.HWiNFO",
+					"Version" : "7.26"
+				},
+				{
+					"PackageIdentifier" : "SourceFoundry.HackFonts",
+					"Version" : "1.6.0"
+				},
+				{
+					"PackageIdentifier" : "HandBrake.HandBrake",
+					"Version" : "1.5.1"
+				},
+				{
+					"PackageIdentifier" : "Samsung.SmartSwitch",
+					"Version" : "4.2.22032.14"
+				},
+				{
+					"PackageIdentifier" : "CodecGuide.K-LiteCodecPack.Full",
+					"Version" : "16.9.8"
+				},
+				{
+					"PackageIdentifier" : "kalilinux.kalilinux",
+					"Version" : "1.12.0.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Edge",
+					"Version" : "103.0.1264.44"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
+					"Version" : "103.0.1264.44"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsTerminal.Preview",
+					"Version" : "1.14.1451.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsTerminal",
+					"Version" : "1.13.11431.0"
+				},
+				{
+					"PackageIdentifier" : "JanDeDobbeleer.OhMyPosh",
+					"Version" : "7.77.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.OneDrive",
+					"Version" : "22.121.0605.0002"
+				},
+				{
+					"PackageIdentifier" : "Opera.OperaGX",
+					"Version" : "88.0.4412.65"
+				},
+				{
+					"PackageIdentifier" : "Parsec.Parsec",
+					"Version" : "150-78"
+				},
+				{
+					"PackageIdentifier" : "ProtonTechnologies.ProtonVPN",
+					"Version" : "2.0.0"
+				},
+				{
+					"PackageIdentifier" : "Rainmeter.Rainmeter",
+					"Version" : "4.5.13"
+				},
+				{
+					"PackageIdentifier" : "Spotify.Spotify",
+					"Version" : "1.1.88.612.gcc529952"
+				},
+				{
+					"PackageIdentifier" : "Valve.Steam",
+					"Version" : "2.10.91.91"
+				},
+				{
+					"PackageIdentifier" : "TeamViewer.TeamViewer",
+					"Version" : "15.3.2682"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Teams",
+					"Version" : "1.5.00.5967"
+				},
+				{
+					"PackageIdentifier" : "Ubisoft.Connect",
+					"Version" : "57.0"
+				},
+				{
+					"PackageIdentifier" : "VideoLAN.VLC",
+					"Version" : "3.0.17.4"
+				},
+				{
+					"PackageIdentifier" : "Wargaming.GameCenter",
+					"Version" : "22.0.0.8225"
+				},
+				{
+					"PackageIdentifier" : "RARLab.WinRAR",
+					"Version" : "5.20.0"
+				},
+				{
+					"PackageIdentifier" : "WiresharkFoundation.Wireshark",
+					"Version" : "3.7.0"
+				},
+				{
+					"PackageIdentifier" : "AntibodySoftware.WizTree",
+					"Version" : "4.08"
+				},
+				{
+					"PackageIdentifier" : "Obsidian.Obsidian",
+					"Version" : "0.13.31"
+				},
+				{
+					"PackageIdentifier" : "Notion.Notion",
+					"Version" : "2.0.23"
+				},
+				{
+					"PackageIdentifier" : "Axosoft.GitKraken",
+					"Version" : "8.4.0"
+				},
+				{
+					"PackageIdentifier" : "AppWork.JDownloader",
+					"Version" : "2.0"
+				},
+				{
+					"PackageIdentifier" : "MYKIInc.MYKIDesktopApp",
+					"Version" : "1.4.10"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2013Redist-x64",
+					"Version" : "12.0.30501.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.5",
+					"Version" : "5.0.17.31219"
+				},
+				{
+					"PackageIdentifier" : "EclipseAdoptium.Temurin.8",
+					"Version" : "8.0.302.8"
+				},
+				{
+					"PackageIdentifier" : "Viber.Viber",
+					"Version" : "17.5.1.11"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2010Redist-x64",
+					"Version" : "10.0.40219"
+				},
+				{
+					"PackageIdentifier" : "PuTTY.PuTTY",
+					"Version" : "0.76.0.0"
+				},
+				{
+					"PackageIdentifier" : "EpicGames.EpicGamesLauncher",
+					"Version" : "1.3.0.0"
+				},
+				{
+					"PackageIdentifier" : "GitHub.GitLFS",
+					"Version" : "3.1.4"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2015-2022Redist-x64",
+					"Version" : "14.31.31103.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2012Redist-x86",
+					"Version" : "11.0.61030.0"
+				},
+				{
+					"PackageIdentifier" : "Malwarebytes.Malwarebytes",
+					"Version" : "3.1.2.1733"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.SDK.3_1",
+					"Version" : "3.1.420.16016"
+				},
+				{
+					"PackageIdentifier" : "Cppcheck.Cppcheck",
+					"Version" : "1.82"
+				},
+				{
+					"PackageIdentifier" : "Cisco.WebexTeams",
+					"Version" : "41.10.0.20371"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2015-2022Redist-x86",
+					"Version" : "14.30.30704.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.SDK.5",
+					"Version" : "5.4.822.21928"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2008Redist-x64",
+					"Version" : "9.0.30729.6161"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2013Redist-x86",
+					"Version" : "12.0.40660.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.SQLServerManagementStudio",
+					"Version" : "15.0.18330.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2005Redist-x86",
+					"Version" : "8.0.61001"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudioCode",
+					"Version" : "1.68.1"
+				},
+				{
+					"PackageIdentifier" : "Oracle.MySQL",
+					"Version" : "1.6.1.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2008Redist-x86",
+					"Version" : "9.0.30729.6161"
+				},
+				{
+					"PackageIdentifier" : "Oracle.VirtualBox",
+					"Version" : "6.1.30"
+				},
+				{
+					"PackageIdentifier" : "Apple.iTunes",
+					"Version" : "12.9.3.3"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerShell",
+					"Version" : "7.2.5.0"
+				},
+				{
+					"PackageIdentifier" : "Nvidia.GeForceExperience",
+					"Version" : "3.25.1.27"
+				},
+				{
+					"PackageIdentifier" : "Nvidia.PhysX",
+					"Version" : "9.21.0713"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2010Redist-x86",
+					"Version" : "10.0.40219"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1",
+					"Version" : "3.1.26.31323"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2005Redist-x64",
+					"Version" : "8.0.61000"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2012Redist-x64",
+					"Version" : "11.0.61030.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.AspNetCore.5",
+					"Version" : "5.0.17.22215"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2013Redist-x64",
+					"Version" : "12.0.40660.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2013Redist-x86",
+					"Version" : "12.0.30501.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.AspNetCore.3_1",
+					"Version" : "3.1.26.22274"
+				}
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://winget.azureedge.net/cache",
+				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name" : "winget",
+				"Type" : "Microsoft.PreIndexed.Package"
+			}
+		}
+	],
+	"WinGetVersion" : "1.2.11601"
+}
