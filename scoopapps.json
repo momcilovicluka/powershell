@@ -1,0 +1,227 @@
+{
+    "apps": [
+        {
+            "Updated": "2022-07-24T18:17:36.5279229+02:00",
+            "Source": "main",
+            "Info": "",
+            "Name": "adb",
+            "Version": "33.0.2"
+        },
+        {
+            "Updated": "2022-07-24T18:19:00.918528+02:00",
+            "Source": "extras",
+            "Info": "",
+            "Name": "android-sdk",
+            "Version": "4333796"
+        },
+        {
+            "Updated": "2022-07-24T19:30:10.9304504+02:00",
+            "Source": "extras",
+            "Info": "",
+            "Name": "android-studio",
+            "Version": "2021.2.1.15"
+        },
+        {
+            "Updated": "2022-05-04T12:26:48.5478444+02:00",
+            "Source": "main",
+            "Info": "",
+            "Name": "aria2",
+            "Version": "1.36.0-1"
+        },
+        {
+            "Updated": "2022-05-09T13:46:25.6698149+02:00",
+            "Source": "main",
+            "Info": "",
+            "Name": "bottom",
+            "Version": "0.6.8"
+        },
+        {
+            "Updated": "2022-07-19T11:26:05.6644605+02:00",
+            "Source": "main",
+            "Info": "",
+            "Name": "cacert",
+            "Version": "2022-07-19"
+        },
+        {
+            "Updated": "2022-07-29T14:54:31.5973361+02:00",
+            "Source": "main",
+            "Info": "",
+            "Name": "cmake",
+            "Version": "3.23.3"
+        },
+        {
+            "Updated": "2022-05-16T16:59:22.7920222+02:00",
+            "Source": "main",
+            "Info": "",
+            "Name": "cpufetch",
+            "Version": "1.00"
+        },
+        {
+            "Updated": "2022-05-06T21:35:04.755028+02:00",
+            "Source": "main",
+            "Info": "",
+            "Name": "dark",
+            "Version": "3.11.2"
+        },
+        {
+            "Updated": "2022-07-25T15:34:54.5294873+02:00",
+            "Source": "main",
+            "Info": "",
+            "Name": "ffmpeg",
+            "Version": "5.1"
+        },
+        {
+            "Updated": "2022-07-24T12:30:52.0149319+02:00",
+            "Source": "extras",
+            "Info": "",
+            "Name": "flow-launcher",
+            "Version": "1.9.4"
+        },
+        {
+            "Updated": "2022-07-24T19:17:00.8791919+02:00",
+            "Source": "extras",
+            "Info": "",
+            "Name": "flutter",
+            "Version": "3.0.5"
+        },
+        {
+            "Updated": "2022-05-04T11:44:21.6160877+02:00",
+            "Source": "main",
+            "Info": "",
+            "Name": "neofetch",
+            "Version": "7.1.0"
+        },
+        {
+            "Updated": "2022-07-27T13:30:15.2626464+02:00",
+            "Source": "main",
+            "Info": "",
+            "Name": "nodejs",
+            "Version": "18.7.0"
+        },
+        {
+            "Updated": "2022-07-29T14:57:55.3107715+02:00",
+            "Source": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json",
+            "Info": "",
+            "Name": "oh-my-posh",
+            "Version": "8.24.0"
+        },
+        {
+            "Updated": "2022-07-27T13:30:30.5536454+02:00",
+            "Source": "extras",
+            "Info": "",
+            "Name": "pipes-rs",
+            "Version": "1.6.0"
+        },
+        {
+            "Updated": "2022-05-05T17:51:26.9887973+02:00",
+            "Source": "extras",
+            "Info": "",
+            "Name": "posh-git",
+            "Version": "1.1.0"
+        },
+        {
+            "Updated": "2022-06-28T01:18:35.4945591+02:00",
+            "Source": "main",
+            "Info": "",
+            "Name": "python",
+            "Version": "3.10.5"
+        },
+        {
+            "Updated": "2022-07-24T18:13:35.1656368+02:00",
+            "Source": "main",
+            "Info": "",
+            "Name": "sass",
+            "Version": "1.54.0"
+        },
+        {
+            "Updated": "2022-07-24T18:19:58.9798417+02:00",
+            "Source": "java",
+            "Info": "",
+            "Name": "temurin8-jdk",
+            "Version": "8.0.332-9"
+        },
+        {
+            "Updated": "2022-07-07T11:48:42.0565509+02:00",
+            "Source": "extras",
+            "Info": "",
+            "Name": "terminal-icons",
+            "Version": "0.10.0"
+        },
+        {
+            "Updated": "2022-05-06T11:39:45.3184166+02:00",
+            "Source": "main",
+            "Info": "",
+            "Name": "wget",
+            "Version": "1.21.3"
+        },
+        {
+            "Updated": "2022-05-16T16:58:30.1649053+02:00",
+            "Source": "main",
+            "Info": "",
+            "Name": "winfetch",
+            "Version": "2.4.1"
+        },
+        {
+            "Updated": "2022-07-23T12:58:33.8629791+02:00",
+            "Source": "main",
+            "Info": "",
+            "Name": "yarn",
+            "Version": "1.22.19"
+        },
+        {
+            "Updated": "2022-05-04T12:24:32.5241722+02:00",
+            "Source": "main",
+            "Info": "",
+            "Name": "youtube-dl",
+            "Version": "2021.12.17"
+        },
+        {
+            "Updated": "2022-07-16T14:49:13.8816561+02:00",
+            "Source": "main",
+            "Info": "Global install",
+            "Name": "7zip",
+            "Version": "22.01"
+        },
+        {
+            "Updated": "2022-07-26T19:26:06.0909308+02:00",
+            "Source": "extras",
+            "Info": "Global install",
+            "Name": "ani-cli",
+            "Version": "3.3"
+        },
+        {
+            "Updated": "2022-05-04T11:53:12.1422801+02:00",
+            "Source": "main",
+            "Info": "Global install",
+            "Name": "aria2",
+            "Version": "1.36.0-1"
+        },
+        {
+            "Updated": "2022-03-15T13:56:48.8075474+01:00",
+            "Source": "extras",
+            "Info": "Global install",
+            "Name": "mpv",
+            "Version": "0.34.0"
+        }
+    ],
+    "buckets": [
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": "2022-07-30T10:28:46+02:00",
+            "Manifests": 1619
+        },
+        {
+            "Name": "java",
+            "Source": "https://github.com/ScoopInstaller/Java/",
+            "Updated": "2022-07-30T01:45:01+02:00",
+            "Manifests": 225
+        },
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main",
+            "Updated": "2022-07-30T10:30:57+02:00",
+            "Manifests": 1065
+        }
+    ]
+}
