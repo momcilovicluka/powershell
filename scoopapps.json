@@ -1,227 +1,365 @@
 {
-    "apps": [
-        {
-            "Updated": "2022-07-24T18:17:36.5279229+02:00",
-            "Source": "main",
-            "Info": "",
-            "Name": "adb",
-            "Version": "33.0.2"
-        },
-        {
-            "Updated": "2022-07-24T18:19:00.918528+02:00",
-            "Source": "extras",
-            "Info": "",
-            "Name": "android-sdk",
-            "Version": "4333796"
-        },
-        {
-            "Updated": "2022-07-24T19:30:10.9304504+02:00",
-            "Source": "extras",
-            "Info": "",
-            "Name": "android-studio",
-            "Version": "2021.2.1.15"
-        },
-        {
-            "Updated": "2022-05-04T12:26:48.5478444+02:00",
-            "Source": "main",
-            "Info": "",
-            "Name": "aria2",
-            "Version": "1.36.0-1"
-        },
-        {
-            "Updated": "2022-05-09T13:46:25.6698149+02:00",
-            "Source": "main",
-            "Info": "",
-            "Name": "bottom",
-            "Version": "0.6.8"
-        },
-        {
-            "Updated": "2022-07-19T11:26:05.6644605+02:00",
-            "Source": "main",
-            "Info": "",
-            "Name": "cacert",
-            "Version": "2022-07-19"
-        },
-        {
-            "Updated": "2022-07-29T14:54:31.5973361+02:00",
-            "Source": "main",
-            "Info": "",
-            "Name": "cmake",
-            "Version": "3.23.3"
-        },
-        {
-            "Updated": "2022-05-16T16:59:22.7920222+02:00",
-            "Source": "main",
-            "Info": "",
-            "Name": "cpufetch",
-            "Version": "1.00"
-        },
-        {
-            "Updated": "2022-05-06T21:35:04.755028+02:00",
-            "Source": "main",
-            "Info": "",
-            "Name": "dark",
-            "Version": "3.11.2"
-        },
-        {
-            "Updated": "2022-07-25T15:34:54.5294873+02:00",
-            "Source": "main",
-            "Info": "",
-            "Name": "ffmpeg",
-            "Version": "5.1"
-        },
-        {
-            "Updated": "2022-07-24T12:30:52.0149319+02:00",
-            "Source": "extras",
-            "Info": "",
-            "Name": "flow-launcher",
-            "Version": "1.9.4"
-        },
-        {
-            "Updated": "2022-07-24T19:17:00.8791919+02:00",
-            "Source": "extras",
-            "Info": "",
-            "Name": "flutter",
-            "Version": "3.0.5"
-        },
-        {
-            "Updated": "2022-05-04T11:44:21.6160877+02:00",
-            "Source": "main",
-            "Info": "",
-            "Name": "neofetch",
-            "Version": "7.1.0"
-        },
-        {
-            "Updated": "2022-07-27T13:30:15.2626464+02:00",
-            "Source": "main",
-            "Info": "",
-            "Name": "nodejs",
-            "Version": "18.7.0"
-        },
-        {
-            "Updated": "2022-07-29T14:57:55.3107715+02:00",
-            "Source": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json",
-            "Info": "",
-            "Name": "oh-my-posh",
-            "Version": "8.24.0"
-        },
-        {
-            "Updated": "2022-07-27T13:30:30.5536454+02:00",
-            "Source": "extras",
-            "Info": "",
-            "Name": "pipes-rs",
-            "Version": "1.6.0"
-        },
-        {
-            "Updated": "2022-05-05T17:51:26.9887973+02:00",
-            "Source": "extras",
-            "Info": "",
-            "Name": "posh-git",
-            "Version": "1.1.0"
-        },
-        {
-            "Updated": "2022-06-28T01:18:35.4945591+02:00",
-            "Source": "main",
-            "Info": "",
-            "Name": "python",
-            "Version": "3.10.5"
-        },
-        {
-            "Updated": "2022-07-24T18:13:35.1656368+02:00",
-            "Source": "main",
-            "Info": "",
-            "Name": "sass",
-            "Version": "1.54.0"
-        },
-        {
-            "Updated": "2022-07-24T18:19:58.9798417+02:00",
-            "Source": "java",
-            "Info": "",
-            "Name": "temurin8-jdk",
-            "Version": "8.0.332-9"
-        },
-        {
-            "Updated": "2022-07-07T11:48:42.0565509+02:00",
-            "Source": "extras",
-            "Info": "",
-            "Name": "terminal-icons",
-            "Version": "0.10.0"
-        },
-        {
-            "Updated": "2022-05-06T11:39:45.3184166+02:00",
-            "Source": "main",
-            "Info": "",
-            "Name": "wget",
-            "Version": "1.21.3"
-        },
-        {
-            "Updated": "2022-05-16T16:58:30.1649053+02:00",
-            "Source": "main",
-            "Info": "",
-            "Name": "winfetch",
-            "Version": "2.4.1"
-        },
-        {
-            "Updated": "2022-07-23T12:58:33.8629791+02:00",
-            "Source": "main",
-            "Info": "",
-            "Name": "yarn",
-            "Version": "1.22.19"
-        },
-        {
-            "Updated": "2022-05-04T12:24:32.5241722+02:00",
-            "Source": "main",
-            "Info": "",
-            "Name": "youtube-dl",
-            "Version": "2021.12.17"
-        },
-        {
-            "Updated": "2022-07-16T14:49:13.8816561+02:00",
-            "Source": "main",
-            "Info": "Global install",
-            "Name": "7zip",
-            "Version": "22.01"
-        },
-        {
-            "Updated": "2022-07-26T19:26:06.0909308+02:00",
-            "Source": "extras",
-            "Info": "Global install",
-            "Name": "ani-cli",
-            "Version": "3.3"
-        },
-        {
-            "Updated": "2022-05-04T11:53:12.1422801+02:00",
-            "Source": "main",
-            "Info": "Global install",
-            "Name": "aria2",
-            "Version": "1.36.0-1"
-        },
-        {
-            "Updated": "2022-03-15T13:56:48.8075474+01:00",
-            "Source": "extras",
-            "Info": "Global install",
-            "Name": "mpv",
-            "Version": "0.34.0"
-        }
-    ],
     "buckets": [
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
-            "Updated": "2022-07-30T10:28:46+02:00",
-            "Manifests": 1619
+            "Updated": "2023-03-14T14:12:28+01:00",
+            "Manifests": 1786
         },
         {
             "Name": "java",
-            "Source": "https://github.com/ScoopInstaller/Java/",
-            "Updated": "2022-07-30T01:45:01+02:00",
-            "Manifests": 225
+            "Source": "https://github.com/ScoopInstaller/Java",
+            "Updated": "2023-03-14T13:39:12+01:00",
+            "Manifests": 254
         },
         {
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
-            "Updated": "2022-07-30T10:30:57+02:00",
-            "Manifests": 1065
+            "Updated": "2023-03-14T13:32:18+01:00",
+            "Manifests": 1174
+        },
+        {
+            "Name": "nerd-fonts",
+            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+            "Updated": "2023-03-14T06:58:44+01:00",
+            "Manifests": 217
+        },
+        {
+            "Name": "nonportable",
+            "Source": "https://github.com/ScoopInstaller/Nonportable",
+            "Updated": "2023-03-14T14:05:22+01:00",
+            "Manifests": 127
+        }
+    ],
+    "apps": [
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2022-07-30T21:52:17.662606+02:00",
+            "Version": "22.01",
+            "Name": "7zip"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-03-13T18:48:23.2572704+01:00",
+            "Version": "34.0.1",
+            "Name": "adb"
+        },
+        {
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-02-19T13:38:01.7425107+01:00",
+            "Version": "4333796",
+            "Name": "android-sdk"
+        },
+        {
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-02-28T16:01:54.4243597+01:00",
+            "Version": "2022.1.1.21",
+            "Name": "android-studio"
+        },
+        {
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-03-13T18:48:26.0141745+01:00",
+            "Version": "4.2",
+            "Name": "ani-cli"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2022-07-30T22:21:10.1809626+02:00",
+            "Version": "1.36.0-1",
+            "Name": "aria2"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2022-09-10T14:20:59.1235956+02:00",
+            "Version": "2.16.1-1",
+            "Name": "axel"
+        },
+        {
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-02-19T13:07:26.0966834+01:00",
+            "Version": "2023.2.0",
+            "Name": "bitwarden"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-01-22T17:51:12.2238452+01:00",
+            "Version": "0.8.0",
+            "Name": "bottom"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-03-02T17:42:26.6331421+01:00",
+            "Version": "4882-g6e0a6b7e5",
+            "Name": "busybox"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-01-10T07:51:24.095334+01:00",
+            "Version": "2023-01-10",
+            "Name": "cacert"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-03-09T17:26:32.0465895+01:00",
+            "Version": "1.03",
+            "Name": "cpufetch"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2022-07-30T22:21:16.0693018+02:00",
+            "Version": "3.11.2",
+            "Name": "dark"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-02-28T16:02:42.8186185+01:00",
+            "Version": "6.0",
+            "Name": "ffmpeg"
+        },
+        {
+            "Source": "nerd-fonts",
+            "Info": "",
+            "Updated": "2022-08-08T19:04:54.8897716+02:00",
+            "Version": "6.2",
+            "Name": "firacode"
+        },
+        {
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-03-09T17:43:49.5878242+01:00",
+            "Version": "3.7.7",
+            "Name": "flutter"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-02-19T13:07:29.4485778+01:00",
+            "Version": "0.38.0",
+            "Name": "fzf"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-03-13T18:48:31.5182573+01:00",
+            "Version": "2.24.3",
+            "Name": "gh"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2022-08-08T10:36:19.4683089+02:00",
+            "Version": "0.50",
+            "Name": "innounp"
+        },
+        {
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-03-13T18:49:53.8700591+01:00",
+            "Version": "2023.1.0",
+            "Name": "insomnia"
+        },
+        {
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-01-24T18:32:28.1268872+01:00",
+            "Version": "6.20.0",
+            "Name": "jaspersoft-studio"
+        },
+        {
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-03-03T14:39:01.6741578+01:00",
+            "Version": "1.27.3.14493",
+            "Name": "jetbrains-toolbox"
+        },
+        {
+            "Source": "nonportable",
+            "Info": "",
+            "Updated": "2023-02-19T13:08:58.6129461+01:00",
+            "Version": "17.4.5",
+            "Name": "k-lite-codec-pack-full-np"
+        },
+        {
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-03-14T16:10:19.760009+01:00",
+            "Version": "2.8.9",
+            "Name": "markdown-monster"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-02-26T20:00:51.3840906+01:00",
+            "Version": "3.9.0",
+            "Name": "maven"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2022-11-30T17:58:00.5221768+01:00",
+            "Version": "12.2.0-rt_v10-rev1",
+            "Name": "mingw"
+        },
+        {
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-01-29T16:01:09.5570502+01:00",
+            "Version": "0.35.1",
+            "Name": "mpv"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-01-17T15:18:09.2874094+01:00",
+            "Version": "8.0.32",
+            "Name": "mysql-workbench"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2022-07-30T22:21:47.5074196+02:00",
+            "Version": "7.1.0",
+            "Name": "neofetch"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-02-24T21:15:39.0658584+01:00",
+            "Version": "19.7.0",
+            "Name": "nodejs"
+        },
+        {
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-02-28T16:03:10.4790524+01:00",
+            "Version": "2.0.41",
+            "Name": "notion"
+        },
+        {
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2022-07-30T22:22:17.0412408+02:00",
+            "Version": "1.6.0",
+            "Name": "pipes-rs"
+        },
+        {
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2022-07-30T22:22:19.7179483+02:00",
+            "Version": "1.1.0",
+            "Name": "posh-git"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-02-19T13:10:05.9299232+01:00",
+            "Version": "3.11.2",
+            "Name": "python"
+        },
+        {
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-02-28T16:03:32.7707811+01:00",
+            "Version": "4.5.2",
+            "Name": "qbittorrent"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-03-13T18:50:08.0594282+01:00",
+            "Version": "3.41.1",
+            "Name": "sqlite"
+        },
+        {
+            "Source": "java",
+            "Info": "",
+            "Updated": "2023-03-09T17:40:49.0564955+01:00",
+            "Version": "8.0.362-9",
+            "Name": "temurin8-jdk"
+        },
+        {
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2022-07-30T22:23:09.577602+02:00",
+            "Version": "0.10.0",
+            "Name": "terminal-icons"
+        },
+        {
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-03-04T15:54:25.4141593+01:00",
+            "Version": "10.1.7",
+            "Name": "tomcat"
+        },
+        {
+            "Source": "nonportable",
+            "Info": "",
+            "Updated": "2022-12-15T16:53:42.7775357+01:00",
+            "Version": "3.4.1",
+            "Name": "unity-hub-np"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-03-01T20:28:23.7610527+01:00",
+            "Version": "0.0.17",
+            "Name": "uutils-coreutils"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2022-07-30T22:23:13.5138087+02:00",
+            "Version": "1.21.3",
+            "Name": "wget"
+        },
+        {
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-03-13T18:51:01.4888461+01:00",
+            "Version": "2.2310.5",
+            "Name": "whatsapp"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-02-02T11:21:47.7453305+01:00",
+            "Version": "2.5.0",
+            "Name": "winfetch"
+        },
+        {
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-03-03T14:39:46.7048672+01:00",
+            "Version": "4.0.4",
+            "Name": "wireshark"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2022-07-30T22:23:23.607072+02:00",
+            "Version": "1.22.19",
+            "Name": "yarn"
+        },
+        {
+            "Source": "main",
+            "Info": "",
+            "Updated": "2022-07-30T22:23:27.798981+02:00",
+            "Version": "2021.12.17",
+            "Name": "youtube-dl"
         }
     ]
 }
