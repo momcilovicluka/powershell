@@ -59,11 +59,11 @@
           "foreground_templates": [
             "{{ if or (.Working.Changed) (.Staging.Changed) }}#000000{{ end }}",
             "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#ffffff{{ end }}",
-            "{{ if gt .Ahead 0 }}#ffffff{{ end }}"
+            "{{ if gt .Ahead 0 }}#000040{{ end }}"
           ],
           "background": "#004f84",
           "background_templates": [
-            "{{ if or (.Working.Changed) (.Staging.Changed) }}#ff4d12{{ end }}",
+            "{{ if or (.Working.Changed) (.Staging.Changed) }}#efff12{{ end }}",
             "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#5100ba{{ end }}",
             "{{ if gt .Ahead 0 }}#33ff41{{ end }}",
             "{{ if gt .Behind 0 }}#ff0040{{ end }}"
