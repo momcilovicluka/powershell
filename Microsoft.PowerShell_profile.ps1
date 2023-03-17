@@ -40,6 +40,34 @@ function clonerepos {
     Invoke-Expression $cmd
 }
 
+function gfa {
+  $currentDirectory = Get-Location
+  Get-ChildItem -Directory | ForEach-Object {
+    Write-Host "Entering $($_.Name)"
+    Set-Location $_.FullName
+    if (Test-Path .git) {
+      git fetch
+    } else {
+      Write-Host "No git repository found in $($_.Name)"
+    }
+  }
+  Set-Location $currentDirectory
+}
+
+function gpa {
+  $currentDirectory = Get-Location
+  Get-ChildItem -Directory | ForEach-Object {
+    Write-Host "Entering $($_.Name)"
+    Set-Location $_.FullName
+    if (Test-Path .git) {
+      git pull
+    } else {
+      Write-Host "No git repository found in $($_.Name)"
+    }
+  }
+  Set-Location $currentDirectory
+}
+
 function mklink ($link, $target) {
     New-Item -Path $link -ItemType SymbolicLink -Value $target
 }
