@@ -40,6 +40,10 @@ function clonerepos {
     Invoke-Expression $cmd
 }
 
+function mklink ($link, $target) {
+    New-Item -Path $link -ItemType SymbolicLink -Value $target
+}
+
 function time {
     $cmd = ""
     $args = $args | ?{$_ -ne ""}
