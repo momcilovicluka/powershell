@@ -1,6 +1,6 @@
 Import-Module posh-git
 #Import-Module oh-my-posh
-oh-my-posh init pwsh | Invoke-Expression
+#oh-my-posh init pwsh | Invoke-Expression
 Import-Module -Name Terminal-Icons
 #Set-Theme Paradox
 oh-my-posh init pwsh --config "C:\Users\Luka\Documents\PowerShell\luka.omp.json" | Invoke-Expression
@@ -14,6 +14,8 @@ Set-Alias -name bottom -value btm
 Set-Alias -name pusimiga -value pushimiga
 Set-Alias -name aria2 -value aria2c
 Set-Alias -name aria -value aria2c
+Set-Alias -name gitfetchall -value gfa
+Set-Alias -name gitpullall -value gpa
 
 function pushimiga { git push }
 
@@ -43,7 +45,7 @@ function clonerepos {
 function gfa {
   $currentDirectory = Get-Location
   Get-ChildItem -Directory | ForEach-Object {
-    Write-Host "Entering $($_.Name)"
+    Write-Host "Fetching $($_.Name)"
     Set-Location $_.FullName
     if (Test-Path .git) {
       git fetch
@@ -57,7 +59,7 @@ function gfa {
 function gpa {
   $currentDirectory = Get-Location
   Get-ChildItem -Directory | ForEach-Object {
-    Write-Host "Entering $($_.Name)"
+    Write-Host "Pulling $($_.Name)"
     Set-Location $_.FullName
     if (Test-Path .git) {
       git pull
