@@ -5,16 +5,222 @@
   "blocks": [
     {
       "type": "prompt",
-      "alignment": "right",
+      "alignment": "left",
       "segments": [
         {
-          "type": "time",
-          "style": "plain",
+          "type": "spotify",
+          "style": "powerline",
+          "foreground": "#1BD760",
+          "properties": {
+            "playing_icon": "\uE602 ",
+            "paused_icon": "\uF8E3 ",
+            "stopped_icon": "\uF04D "
+          },
+          "template": "{{ .Icon }}{{ if ne .Status \"stopped\" }}{{ .Artist }} - {{ .Track }}{{ end }} "
+        },
+        {
+          "type": "project",
+          "trailing_diamond": "\ue0b4 ",
+          "leading_diamond": "\ue0b6",
+          "style": "diamond",
           "foreground": "#ffffff",
-          "template": "[{{ .CurrentDate | date .Format }}]"
+          "background": "#9900ff",
+          "template": "{{ if .Error }}{{ .Error }}{{ else }}{{ if .Version }}\uf487 {{.Version}}{{ end }} {{ if .Name }}{{ .Name }}{{ end }}{{ end }}"
+        },
+        {
+          "type": "docker",
+          "trailing_diamond": "\ue0b4 ",
+          "leading_diamond": "\ue0b6",
+          "style": "diamond",
+          "foreground": "#ffffff",
+          "background": "#2496ED",
+          "template": "\uf308 {{ .Context }}"
+        },
+        {
+          "type": "kubectl",
+          "trailing_diamond": "\ue0b4 ",
+          "leading_diamond": "\ue0b6",
+          "style": "diamond",
+          "foreground": "#ffffff",
+          "background": "#326CE5",
+          "template": "\uFD31 {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}}",
+          "properties": {
+            "display_error": false,
+            "parse_kubeconfig": true
+          }
+        },
+        {
+          "type": "node",
+          "trailing_diamond": "\ue0b4 ",
+          "leading_diamond": "\ue0b6",
+          "style": "diamond",
+          "foreground": "#ffffff",
+          "background": "#339933",
+          "template": "\uE718 {{ .Full }}",
+          "properties": {
+            "home_enabled": true,
+            "fetch_version": true,
+            "missing_command_text": "Node not installed",
+            "display_mode": "files",
+            "fetch_package_manager": true
+          }
+        },
+        {
+          "type": "npm",
+          "trailing_diamond": "\ue0b4 ",
+          "leading_diamond": "\ue0b6",
+          "style": "diamond",
+          "foreground": "#ffffff",
+          "background": "#CB3837",
+          "template": "\ue71e {{ .Full }}",
+          "properties": {
+            "home_enabled": true,
+            "fetch_version": true,
+            "missing_command_text": "NPM not installed",
+            "display_mode": "files"
+          }
+        },
+        {
+          "type": "dart",
+          "trailing_diamond": "\ue0b4 ",
+          "leading_diamond": "\ue0b6",
+          "style": "diamond",
+          "foreground": "#ffffff",
+          "background": "#0175C2",
+          "template": "\uE798 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
+          "properties": {
+            "home_enabled": true,
+            "fetch_version": true,
+            "missing_command_text": "Dart not installed",
+            "display_mode": "files"
+          }
+        },
+        {
+          "type": "flutter",
+          "trailing_diamond": "\ue0b4 ",
+          "leading_diamond": "\ue0b6",
+          "style": "diamond",
+          "foreground": "#ffffff",
+          "background": "#02569B",
+          "template": "\ue28e {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
+          "properties": {
+            "home_enabled": true,
+            "fetch_version": true,
+            "missing_command_text": "Flutter not installed",
+            "display_mode": "files"
+          }
+        },
+        {
+          "type": "java",
+          "trailing_diamond": "\ue0b4 ",
+          "leading_diamond": "\ue0b6",
+          "style": "diamond",
+          "foreground": "#ffffff",
+          "background": "#F80000",
+          "template": "\uE738 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
+          "properties": {
+            "home_enabled": true,
+            "fetch_version": true,
+            "missing_command_text": "Java not installed",
+            "display_mode": "files"
+          }
+        },
+        {
+          "type": "php",
+          "trailing_diamond": "\ue0b4 ",
+          "leading_diamond": "\ue0b6",
+          "style": "diamond",
+          "foreground": "#ffffff",
+          "background": "#777BB4",
+          "template": "\ue73d {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
+          "properties": {
+            "home_enabled": true,
+            "fetch_version": true,
+            "missing_command_text": "PHP not installed",
+            "display_mode": "files"
+          }
+        },
+        {
+          "type": "python",
+          "trailing_diamond": "\ue0b4 ",
+          "leading_diamond": "\ue0b6",
+          "style": "diamond",
+          "foreground": "#ffffff",
+          "background": "#3776AB",
+          "template": "\uE235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}",
+          "properties": {
+            "home_enabled": true,
+            "fetch_virtual_env": true,
+            "display_default": true,
+            "fetch_version": true,
+            "missing_command_text": "Python not installed",
+            "display_mode": "files"
+          }
+        },
+        {
+          "type": "go",
+          "trailing_diamond": "\ue0b4 ",
+          "leading_diamond": "\ue0b6",
+          "style": "diamond",
+          "foreground": "#ffffff",
+          "background": "#00ADD8",
+          "template": "\u202D\uFCD1 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
+          "properties": {
+            "home_enabled": true,
+            "fetch_version": true,
+            "missing_command_text": "GO not installed",
+            "display_mode": "files"
+          }
+        },
+        {
+          "type": "unity",
+          "trailing_diamond": "\ue0b4 ",
+          "leading_diamond": "\ue0b6",
+          "style": "diamond",
+          "foreground": "#ffffff",
+          "background": "#239120",
+          "template": "\ue721 {{ .UnityVersion }}{{ if .CSharpVersion }} {{ .CSharpVersion }}{{ end }}",
+          "properties": {
+            "http_timeout": 2000
+          }
         }
       ],
       "newline": true
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "foreground": "#9900ff",
+          "background": "#000060",
+          "leading_diamond": "\ue0b2",
+          "style": "diamond",
+          "template": " RAM: {{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)|float64) 1000000000.0) }}/{{ (div .PhysicalTotalMemory 1068786176.0) }}GB \uf85a ",
+          "type": "sysinfo"
+        },
+        {
+          "properties": {
+            "always_enabled": true
+          },
+          "invert_powerline": true,
+          "style": "diamond",
+          "foreground": "#9900ff",
+          "background": "#000060",
+          "template": "\ue0ba\ue0bc \ufa1e{{ .FormattedMs }} ",
+          "type": "executiontime"
+        },
+        {
+          "type": "time",
+          "invert_powerline": true,
+          "trailing_diamond": "\ue0b4",
+          "style": "diamond",
+          "foreground": "#9900ff",
+          "background": "#000060",
+          "template": "\ue0ba\ue0bc \uf64f </>{{ .CurrentDate | date .Format }}"
+        }
+      ],
+      "newline": false
     },
     {
       "type": "prompt",
