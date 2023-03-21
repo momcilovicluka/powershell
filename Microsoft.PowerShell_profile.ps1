@@ -45,7 +45,8 @@ function clonerepos {
 function gfa {
   $currentDirectory = Get-Location
   Get-ChildItem -Directory | ForEach-Object {
-    Write-Host "Fetching $($_.Name)"
+    Write-Host "**************************************************"
+    Write-Host "->Fetching $($_.Name)"
     Set-Location $_.FullName
     if (Test-Path .git) {
       git fetch
@@ -59,7 +60,8 @@ function gfa {
 function gpa {
   $currentDirectory = Get-Location
   Get-ChildItem -Directory | ForEach-Object {
-    Write-Host "Pulling $($_.Name)"
+    Write-Host "**************************************************"
+    Write-Host "->Pulling $($_.Name)"
     Set-Location $_.FullName
     if (Test-Path .git) {
       git pull
