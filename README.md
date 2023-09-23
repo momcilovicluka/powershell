@@ -2,9 +2,7 @@
 My powershell configuration and customisation
 
 Contents:
-- Retroblur -> Modified spicetify theme with different colours
 - Microsoft.PowerShell_profile.ps1 -> Powershell profile ([where to put it?](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.3))
-- config-xpui.ini -> Spicetify config
 - luka.omp.json -> oh-my-posh theme
 - scoopapps.json -> Apps installed with Scoop
 - settings.json -> Windows Terminal config

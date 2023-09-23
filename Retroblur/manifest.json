@@ -1,8 +1,0 @@
-{
-    "name": "Retroblur",
-    "description": "Theme with a background, blur, animations and reflections.",
-    "preview": "preview/playlist.png",
-    "usercss": "user.css",
-    "schemes": "color.ini",
-    "readme": "README.md"
-}
