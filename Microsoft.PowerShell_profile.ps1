@@ -16,6 +16,10 @@ Set-Alias -name aria2 -value aria2c
 Set-Alias -name aria -value aria2c
 Set-Alias -name gitfetchall -value gfa
 Set-Alias -name gitpullall -value gpa
+Set-Alias -name lg -value lazygit
+Set-Alias -name gqs -value git-quick-stats
+Set-Alias -name gb -value git-branchless
+Set-Alias -name gom -value gitomatic
 
 function pushimiga { git push }
 
