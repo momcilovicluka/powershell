@@ -48,8 +48,8 @@
                 "face": "FuraCode NF Retina",
                 "size": 12
             },
-            "opacity": 50,
-            "useAcrylic": true
+            "useAcrylic": true,
+            "opacity": 0
         },
         "list": 
         [
