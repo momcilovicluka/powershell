@@ -3,7 +3,7 @@ Import-Module posh-git
 #oh-my-posh init pwsh | Invoke-Expression
 Import-Module -Name Terminal-Icons
 #Set-Theme Paradox
-oh-my-posh init pwsh --config "E:\Rezervna Kopija\Documents\Projects\powershell\luka.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "C:\Users\Luka\Documents\Projects\powershell\luka.omp.json" | Invoke-Expression
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
 Set-PSReadLineOption -EditMode Windows
@@ -98,3 +98,4 @@ if (Test-Path($ChocolateyProfile)) {
   Import-Module "$ChocolateyProfile"
 }
 
+Invoke-Expression (& { (zoxide init powershell | Out-String) })
